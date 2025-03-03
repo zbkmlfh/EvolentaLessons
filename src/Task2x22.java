@@ -48,6 +48,7 @@ public class Task2x22 {
         while (calendar.getTime().before(firstDate) || calendar.getTime().equals(firstDate)) {
             if (calendar.get(Calendar.DAY_OF_WEEK) != Calendar.SATURDAY && calendar.get(Calendar.DAY_OF_WEEK) != Calendar.SUNDAY) {
                 workingDaysAll++;
+
             }
             calendar.add(Calendar.DAY_OF_MONTH, 1);
         }
